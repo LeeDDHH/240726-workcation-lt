@@ -10,6 +10,9 @@ footer: "2024/07/26 workcation with point unit"
   h1, h2, h3, p {
     font-family: 'Noto Sans JP', sans-serif;
   }
+  h1{
+    font-size: 80px
+  }
   h2, h3 {
     position: absolute;
     left: 50px; top: 50px;
@@ -26,11 +29,14 @@ footer: "2024/07/26 workcation with point unit"
 
 ## 目次
 
-- Page 1
-- Page 2
-- Page 3
-- Page 4
-- Page 5
+- はじめに
+- きっかけは緑内障の診断結果
+- インプットの時間と目の疲れ
+- スマホの読み上げ機能
+- Kindle と読み上げ機能の組み合わせ
+- メリット、注意点
+- まとめ
+
 
 <!-- 目次はこんな感じです。 -->
 <!-- 10分以内に収めるようにします。 -->
@@ -49,17 +55,18 @@ footer: "2024/07/26 workcation with point unit"
 
 ## きっかけは緑内障の診断結果
 
-眼科でコンタクトレンズ着用の検査のついてに緑内障が見つかる 🏥
+<style scoped>
+section {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+text-align: center;
+}
+section p {font-size: 72px}
+</style>
 
-↓
-
-目を使って「見る」という体験に制限がかかる 🤔
-
-↓
-
-目を使わないでできる体験をする 💡
-
-![height:280 bg right:50%](./images/glaucoma.jpg)
+眼科での検査で緑内障が見つかる 🏥
 
 <!-- まず、そもそも自分が耳を使ったインプットをしようとしたきっかけについてちょっと話をします。 -->
 <!-- 皆さんご存知だと思いますが、自分は5月に緑内障だと診断された -->
@@ -69,6 +76,46 @@ footer: "2024/07/26 workcation with point unit"
 <!-- 日常では仕事で目を使う時間が長いとか外出しても紫外線の影響を受けるとかで、目を使った体験とか活動に制約がかかってしまうのがちょっと困るポイントとなりました -->
 <!-- そこで、目を使う体験も大事だと思いつつ、目を使わずにできることにはどんなことがあるのかについて興味を持つようになりました。 -->
 <!-- それで、最終的には目を使わないでできる体験にも興味を持つようになりました。 -->
+
+---
+
+## きっかけは緑内障の診断結果
+
+![height:380 bg](./images/glaucoma.jpg)
+
+---
+
+## きっかけは緑内障の診断結果
+
+<style scoped>
+section {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+text-align: center;
+}
+section p {font-size: 70px}
+</style>
+
+「見る」という体験に制限がかかる 🤔
+
+---
+
+## きっかけは緑内障の診断結果
+
+<style scoped>
+section {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+text-align: center;
+}
+section p {font-size: 72px}
+</style>
+
+目を使わないでできる体験をする 💡
 
 ---
 
@@ -95,7 +142,14 @@ footer: "2024/07/26 workcation with point unit"
 
 ## スマホの読み上げ機能
 
-目の不自由な方や視力の弱い方に対して補助的な UI を表示したり、**音声で案内するフィードバック**を提供する機能
+<style scoped>
+
+section p {
+  font-size: 40px
+}
+</style>
+
+補助的な UI を表示、**音声で案内するフィードバック**を提供する機能
 
 ![height:400 bg right:50%](./images/animal_chara_radio_penguin.png)
 
@@ -124,7 +178,10 @@ footer: "2024/07/26 workcation with point unit"
 
 ## Kindle と読み上げ機能の組み合わせ
 
-さらに、Kindle の電子書籍とスマホの読み上げ機能を組み合わせることで、効率的なインプットが可能になりました。これにより、目の負担を軽減しながら多くの情報を得ることができるようになりました。
+<!-- さらに、Kindle の電子書籍とスマホの読み上げ機能を組み合わせることで、効率的なインプットが可能になりました。これにより、目の負担を軽減しながら多くの情報を得ることができるようになりました。 -->
+
+![height:450 bg](./images/android-talkback.png)
+![height:450 bg](./images/android-talkback-kindle.png)
 
 ---
 
@@ -134,19 +191,42 @@ Android で kindle の読み上げ
 
 ---
 
-## 実際の活用方法
+## 実際するシーン
 
-具体的には、Kindle で購入した本をスマホにダウンロードし、読み上げ機能を使って内容を聴く方法です。これにより、移動中や休憩時間など、目を使わない時間にインプットを続けることができます。
+- 朝の散歩中に聞く
+- 通勤中に聞く
+
+![height:250 bg right:65%](./images/pet_dog_sanpo_man.png)
+![height:250 bg right:65%](./images/train_stand_tsurikawa.png)
+
+<!-- 具体的には、Kindle で購入した本をスマホにダウンロードし、読み上げ機能を使って内容を聴く方法です。これにより、移動中や休憩時間など、目を使わない時間にインプットを続けることができます。 -->
 
 ---
 
-## メリットと注意点
+## メリット
 
-この方法のメリットは、目の疲れを軽減できる点と、時間を有効活用できる点です。しかし、音声の速さや声の質によっては集中力が続かないこともありますので、自分に合った設定を見つけることが大切です。
+
+積読が解消される
+
+常に画面を見なくていいので目に優しい
+
+<!-- この方法のメリットは、目の疲れを軽減できる点と、時間を有効活用できる点です。しかし、音声の速さや声の質によっては集中力が続かないこともありますので、自分に合った設定を見つけることが大切です。 -->
+<!--   - 体感的に1日通勤で1冊（200ページ）は読破 -->
+
+---
+
+## 注意点
+
+TalkBackをOnにするとスマホの他の機能に触れない
+
+スクリーンをつけたままにする必要がある
+
+<!-- この方法のメリットは、目の疲れを軽減できる点と、時間を有効活用できる点です。しかし、音声の速さや声の質によっては集中力が続かないこともありますので、自分に合った設定を見つけることが大切です。 -->
 
 ---
 
 ## まとめ
+
 
 目を使わないインプット方法として、スマホの読み上げ機能と Kindle の組み合わせは非常に有効です。目の健康を守りながら知識を増やすために、皆さんもぜひ試してみてください。
 
